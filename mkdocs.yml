@@ -1,0 +1,27 @@
+site_name: Crack Interview
+site_url: https://crackinterview.stackquest.in
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/toggle-switch-outline
+        name: Switch to light mode
+nav:
+  - Crack Interview: index.md
+  - Bascics:
+      - python/basics.md
+  - Web Development:
+      - python/webapp.md
+  - Algorithms:
+      - python/algorithms.md
